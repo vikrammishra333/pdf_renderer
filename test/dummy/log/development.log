@@ -1,0 +1,31 @@
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/vikram/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-20 16:58:47 +0530
+
+RuntimeError (Please install the mysql2 adapter: `gem install activerecord-mysql2-adapter` (no such file to load -- active_record/connection_adapters/mysql2_adapter)):
+  
+
+Rendered /home/vikram/.rvm/gems/ruby-1.9.2-p290@engiinex/gems/actionpack-3.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/vikram/.rvm/gems/ruby-1.9.2-p290@engiinex/gems/actionpack-3.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.6ms)
+Rendered /home/vikram/.rvm/gems/ruby-1.9.2-p290@engiinex/gems/actionpack-3.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.6ms)
+
+
+Started GET "/blog/feed.rss" for 127.0.0.1 at 2012-04-20 16:59:20 +0530
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /home/vikram/.rvm/gems/ruby-1.9.2-p290@engiinex/gems/actionpack-3.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/vikram/.rvm/gems/ruby-1.9.2-p290@engiinex/gems/actionpack-3.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /home/vikram/.rvm/gems/ruby-1.9.2-p290@engiinex/gems/actionpack-3.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/blog/feed.rss" for 127.0.0.1 at 2012-04-20 17:14:32 +0530
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /home/vikram/.rvm/gems/ruby-1.9.2-p290@engiinex/gems/actionpack-3.0.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /home/vikram/.rvm/gems/ruby-1.9.2-p290@engiinex/gems/actionpack-3.0.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /home/vikram/.rvm/gems/ruby-1.9.2-p290@engiinex/gems/actionpack-3.0.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
